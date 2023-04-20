@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Lato&family=Rubik&display=swap');
+
+:root{
+    --font1:'Rubik', sans-serif;
+}
+
+*{
+padding: 0px;
+margin: 0px;
+font-size: 1em;
+font-family: var(--font1)
+}
+
+body{
+    background-color: #ffffff;
+    color: #0C1824;
+    text-align: justify;
+}
+
+.titulo{
+    background-color: #0C1824;
+    color: #FF5152;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 20px ;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    background-color: #0C1824;
+    padding: 10px;
+    margin-top: -5px;
+}
+
+nav > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #FF5152;
+}
+
+h1{
+    font-size: 4em;
+}
+
+h2{
+    font-size: 2em;
+    margin: 10px;
+}
+
+.fundo{
+    background-image: url(https://static.wikia.nocookie.net/dublagem/images/b/bb/Valorant_Postar_2.jpg/revision/latest?cb=20220427195449&path-prefix=pt-br);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fundo > p{
+    background-color: #0c18248a;
+    color: #ffffff;
+}
+
+.fundo > h2{
+    background-color: #0c18248a;
+    color: #ffffff;
+}
+
+p{
+    padding: 10px;
+    border-radius: 3px;
+}
+
+aside  a{
+    text-decoration: none;
+    color: #0C1824;
+}
+
+aside a:hover{
+    font-weight: bolder;
+}
+
+footer{
+    background-image: url(https://static.wikia.nocookie.net/dublagem/images/b/bb/Valorant_Postar_2.jpg/revision/latest?cb=20220427195449&path-prefix=pt-br);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+}
+
+footer > a{
+    text-decoration:none;
+    color: white;
+}
+
+footer > a:hover{
+    text-decoration: underline;
+}

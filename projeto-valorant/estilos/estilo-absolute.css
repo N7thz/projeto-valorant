@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 10px ;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px 0px;
+}
+
+
+body {
+    background: no-repeat top center fixed;
+}
+
+header {
+    margin:20px 15px ;
+}
+
+h1{
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 3px 3px 10px  rgba(0, 0, 0, 0.452);
+}
+
+h2 {
+    padding: 10px;
+    border-radius: 15px;
+    text-shadow: 3px 3px 10px  rgba(0, 0, 0, 0.452);
+}
+
+main  > p, h2{
+    margin: 20px;
+}
+
+p {
+    padding: 20px;
+    color: white;
+}

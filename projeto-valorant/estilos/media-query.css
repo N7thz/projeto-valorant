@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width:1200px) {
+
+    body {
+        background-image: linear-gradient(to bottom, #E33443, #121A27);
+        background-attachment: fixed;
+        margin: auto;
+        margin: 25px;
+    }
+
+    table {
+        display: block;    
+        width: 600px;
+        padding: 15px;
+        margin: 10px 0px;
+        margin: auto;
+    }
+
+    caption {
+        margin-top: 10px;
+        font-size: 2em;
+    }
+
+    th {
+        padding: 7px;
+        font-size: 1.4em;
+    }
+
+    td {
+        padding: 8px 12px;
+        font-size: 1.2em;
+    }
+
+    iframe { 
+        
+        width: 70vw;
+        background: url(../imagens/geral/valorant-fundo\ pqn.webp) no repeat top left;
+        margin-top: 10px;
+        
+        
+    }
+    
+}
+
+@media screen and (min-width:1200px) {
+
+    body {
+        width: 100vw;
+        background-image: linear-gradient(to bottom,  #121A27, #E33443);
+        background-attachment: fixed;
+    }
+
+    table {
+        width: 51vw;
+    }
+
+    caption {
+        margin-top: 20px;
+    }
+
+    iframe {
+        position: absolute;
+        width: 950px;
+        margin: auto;
+        background: url(../imagens/geral/valorant-fundo\ pqn.webp) no-repeat center center fixed;
+        background-size:cover;
+        transform: translateX(48%);
+    }
+}
