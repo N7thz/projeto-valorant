@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/*CSS da pagina mapas*/
+
 * {
     padding: 0px;
     margin: 3px 5px;
@@ -23,10 +25,6 @@ h1 {
     text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.678);
 }
 
-table {
-    border-collapse: collapse;
-}
-
 td {
     width: 250px;
     display: block;
@@ -36,6 +34,7 @@ td {
     font-size: 2.5em;
     margin-bottom: 10px;
     text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
 }
 
 td > a {
@@ -43,9 +42,15 @@ td > a {
     color: white;
 }
 
-footer > a{
+footer a{
     display: block;
     text-align: center;
     text-decoration: none;    
+    padding: 10px;
     color: #E33443;
+}
+
+footer a:hover {
+    color: white;
+    font-size: 1.4em;
 }

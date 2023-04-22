@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/*CSS dos mapas*/
+
 * {
     padding: 0px;
     margin: 3px 5px;
@@ -70,4 +72,45 @@ a {
 a:hover {
     color: #E33443;
     font-weight: bolder;
+    font-size: 1.8em;
+}
+
+footer > a{
+    display: block;
+    background-color: #121A27;
+    padding: 20px 10px;
+    text-align: center;
+    text-decoration: none;    
+    color: #E33443;
+}
+
+footer > a:hover {
+    color: white;
+    font-weight: bolder;
+}
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+    .tatico  {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:1200px){
+
+    .foto {
+        width: 70%;
+        margin-left: 300px;
+    }
+
+    .tatico  {
+        width: 25%;
+        margin-left: 700px;
+    }
+
+    header > p {
+        width: 70%;
+        margin-left: 280px;
+        padding: 50px;
+        font-size: 1.5em;
+    }
 }
