@@ -70,5 +70,13 @@ iframe {
     height: 80vh;
     margin: auto;
     margin: 0px 1px;
-    
+}
+
+footer > a {
+    display: block;
+    margin:  10px -7px -10px -7px;
+    padding: 5px 15px; 
+    background-color: #121A27;
+    color: #E33443;
+    text-align: center;
 }

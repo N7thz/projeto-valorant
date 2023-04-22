@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.lotus {
+    background: url(../imagens/imagens-mapas/Lotus_Screenshot_1.webp);
+    background-size: cover;
+}
+
+.icebox {
+    background: url(../imagens/imagens-mapas/icebox_1.webp);
+    background-size: cover;
+}
+
+.pearl {
+    background: url(../imagens/imagens-mapas/Pearl_Gallery_01.webp);
+    background-size: cover;
+}
+
+.fracture {
+    background: url(../imagens/imagens-mapas/Fracture_Screenshot-8.webp);
+    background-size: cover;
+}
+
+.breeze {
+    background: url(../imagens/imagens-mapas/breeze_1.webp);
+    background-size: cover;
+}
+
+.bind {
+    background: url(../imagens/imagens-mapas/bind1.webp);
+    background-size: cover;
+}
+
+.haven {
+    background: url(../imagens/imagens-mapas/haven1.webp);
+    background-size: cover;
+}
+
+.split {
+    background: url(../imagens/imagens-mapas/split1.webp);
+    background-size: cover;
+}
+
+.ascent {
+    background: url(../imagens/imagens-mapas/ascent.webp);
+    background-size: cover;
+}
+
