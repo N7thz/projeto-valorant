@@ -5,18 +5,22 @@
 @media screen and (min-width: 768px) and (max-width:1200px) {
 
     body {
-        background-image: linear-gradient(to bottom, #E33443, #121A27);
+        background-image: linear-gradient(to top, #E33443, #121A27);
         background-attachment: fixed;
         margin: auto;
         margin: 25px;
     }
 
-    table {
-        display: block;    
+    table {   
         width: 600px;
         padding: 15px;
-        margin: 10px 0px;
-        margin: auto;
+    }
+
+    #tabela {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     caption {
@@ -34,15 +38,12 @@
         font-size: 1.2em;
     }
 
-    iframe { 
-        
-        width: 70vw;
-        background: url(../imagens/geral/valorant-fundo\ pqn.webp) no repeat top left;
-        margin-top: 10px;
-        
-        
+    #quadro {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
     }
-    
+
 }
 
 @media screen and (min-width:1200px) {
