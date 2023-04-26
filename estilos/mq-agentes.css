@@ -70,4 +70,17 @@
         background-size:cover;
         transform: translateX(48%);
     }
-}
+
+    .rodape {
+        background-color: #121A27;
+        color: #E33443;
+        padding: 20px;
+        border-radius: 20px;
+        width: 150px;
+        text-align: center;
+    }
+
+    .rodape  a {
+        color: #E33443;
+    }
+}    
