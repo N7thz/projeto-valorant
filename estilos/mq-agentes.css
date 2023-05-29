@@ -4,15 +4,19 @@
 
 @media screen and (min-width: 768px) and (max-width:1200px) {
 
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box
+    }
+
     body {
-        background-image: linear-gradient(to top, #E33443, #121A27);
+        background-image: linear-gradient(45deg, #E33443, #121A27);
         background-attachment: fixed;
-        margin: auto;
-        margin: 25px;
     }
 
     table {   
-        width: 600px;
+        width: 90vw;
         padding: 15px;
     }
 
@@ -55,7 +59,7 @@
     }
 
     table {
-        width: 51vw;
+        width: 50vw;
     }
 
     caption {
@@ -63,24 +67,11 @@
     }
 
     #quadro {
-        position: absolute;
-        width: 950px;
-        margin: auto;
+        width: 70vw;
+        height: 100vh;
+        margin: 10px auto;
         background: url(../imagens/geral/valorant-fundo\ pqn.webp) no-repeat center center fixed;
         background-size:cover;
-        transform: translateX(48%);
     }
 
-    .rodape {
-        background-color: #121A27;
-        color: #E33443;
-        padding: 20px;
-        border-radius: 20px;
-        width: 150px;
-        text-align: center;
-    }
-
-    .rodape  a {
-        color: #E33443;
-    }
 }    
